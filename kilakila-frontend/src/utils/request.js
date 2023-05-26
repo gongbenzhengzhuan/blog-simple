@@ -8,8 +8,8 @@ import errorCode from '../utils/error-code'
 axios.defaults.headers['Content-Type'] = "application/json;charset=utf-8"
 
 const service = axios.create({
-    //baseURL: "http://82.156.135.173:9004/"
-    baseURL: "http://localhost:9004/"
+    baseURL: "http://82.156.135.173:9004/"
+    //baseURL: "http://localhost:9004/"
 })
 
 
