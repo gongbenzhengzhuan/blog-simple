@@ -24,7 +24,8 @@
             </div>
 
             <!-- 版权 -->
-            <div class="copyright-text">Copyright © 2023 {{ adminName }}</div>
+            <div class="copyright-text">Copyright © 2023 {{ adminName }} </div>
+          <div class="copyright-text">京ICP备2023013015号 | https://beian.miit.gov.cn</div>
         </div>
     </div>
 </template>
