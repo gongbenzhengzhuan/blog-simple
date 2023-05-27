@@ -10,7 +10,7 @@
 
         <!-- 编辑表单 -->
         <div class="edit-card">
-            <h1 class="kila-kila-blog-title">✨ Kila Kila Blog ✨</h1>
+            <h1 class="kila-kila-blog-title">✨ 漫道 Blog ✨</h1>
             <el-form ref="ruleFormRef" :model="ruleForm" :rules="rules" label-width="60px" class="edit-ruleForm">
                 <!-- 标题 -->
                 <el-form-item prop="title" label="标题">

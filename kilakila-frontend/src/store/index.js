@@ -13,8 +13,9 @@ let adminAbout = {
 		adminInfo: {
 			nickName: "",
 			signature: "",
+			email: "15694495230@163.com",
 			avatar: require("@/assets/image/avatar.jpg"),
-			githubUrl: "https://github.com/zhiyiYo",
+			githubUrl: "https://github.com/gongbenzheng/share",
 		},
 		articleCountInfo: {
 			article: 0,
@@ -59,7 +60,7 @@ let adminAbout = {
 let websiteAbout = {
 	namespaced: true,
 	state: {
-		startDate: "2022-01-01"
+		startDate: "2023-05-27"
 	},
 	actions: {},
 	mutations: {},

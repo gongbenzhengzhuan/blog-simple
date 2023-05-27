@@ -4,7 +4,7 @@
         <kila-kila-header />
 
         <!-- 封面 -->
-        <kila-kila-cover imgUrl="assets/image/home-cover.jpg" title="✨ Kila Kila Blog ✨"
+        <kila-kila-cover imgUrl="assets/image/home-cover.jpg" title="✨ 漫步 Blog ✨"
             content="雄关漫道真如铁，而今迈步从头越"></kila-kila-cover>
 
         <div class="container">

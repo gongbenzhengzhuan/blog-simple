@@ -1,7 +1,7 @@
 <template>
     <header>
         <router-link class="header-title" to="/"
-            >✨ Kila Kila Blog ✨</router-link
+            >✨ 漫步 Blog ✨</router-link
         >
         <div class="header-menu">
             <div v-for="item in menuItems" :key="item.name">

@@ -5,14 +5,14 @@
         <div class="footer-box">
             <!-- 标语 -->
             <div class="footer-text">
-                「天若有情天亦老
+                「迈开腿立即行动
                 <span>
                     <font-awesome-icon
                         :icon="['fas', 'heart-pulse']"
                         class="footer-text-icon"
                     />
                 </span>
-                人间正道是沧桑」
+                进一点有一点的欢喜」
             </div>
 
             <!-- 运行时间 -->
@@ -24,7 +24,7 @@
             </div>
 
             <!-- 版权 -->
-            <div class="copyright-text">Copyright © 2022 {{ adminName }}</div>
+            <div class="copyright-text">Copyright © 2023 {{ adminName }}</div>
         </div>
     </div>
 </template>
@@ -34,7 +34,7 @@ import { ref, computed, onBeforeUnmount } from "vue";
 import { useStore } from "vuex";
 import { getRunTime } from "../utils/date";
 export default {
-    name: "KilaKilaFooter",
+    name: "Footer",
     setup() {
         let year = ref(new Date().getFullYear());
         let currentTime = ref(new Date().getTime());
