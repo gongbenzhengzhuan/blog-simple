@@ -15,6 +15,7 @@
                 <kila-kila-category-card />
                 <kila-kila-tag-card />
                 <kila-kila-archive-card />
+                <kila-kila-site-card />
             </div>
 
             <!-- 发表的文章 -->
