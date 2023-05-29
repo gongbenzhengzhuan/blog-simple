@@ -28,6 +28,7 @@ service.interceptors.response.use(response => {
 function uploadImage(file, progress) {
     let formData = new FormData();
     formData.append("file", file)
+    formData.append("fileName","图片"+new Date())
     return service({
         url: "/upload",
         method: "post",

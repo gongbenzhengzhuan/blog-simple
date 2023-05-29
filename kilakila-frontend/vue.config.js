@@ -32,7 +32,8 @@ module.exports = {
     devServer: {
         proxy: {
             "/image": {
-                target: "https://niupic.com/api",
+                //
+                target: "http://82.156.135.173:9005/",
                 pathRewrite: { "^/image": "" },
             },
         }
