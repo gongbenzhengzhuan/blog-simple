@@ -28,6 +28,8 @@
         <img src="http://101.37.117.226:9090/wdhcr/%E5%B0%8F%E6%B3%A5%E9%B3%85%E5%95%86%E5%9F%8E?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7v3qUvGaLweXRbw4%2F20230605%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230605T012031Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=273679a773f09445766956c7dc37b551392e2ca3fc874a463b523671b07c6cdd" width="60" height="60">
         <a  target="_blank" rel="nexus">支付宝小程序</a>
         <br/><br/>
+        <a href="http://82.156.135.173:20712/moto/client/front" target="_blank" rel="nexus">个人网站2</a>
+        <br/><br/>
       </div>
     </kila-kila-card>
 </template>

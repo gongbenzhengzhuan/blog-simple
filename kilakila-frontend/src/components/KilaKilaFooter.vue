@@ -1,5 +1,6 @@
 <template>
     <div id="footer">
+      <meta name="baidu-site-verification" content="codeva-ryMkfcP2Am" />
         <div class="footer-image"></div>
 
         <div class="footer-box">
