@@ -27,7 +27,7 @@
             <!-- 版权 -->
             <div class="copyright-text">Copyright © 2023 {{ adminName }} </div>
           <div class="copyright-text">京ICP备2023013015号 | https://beian.miit.gov.cn</div>
-          <img src="http://101.37.117.226:9090/wdhcr/%E5%8D%9A%E5%AE%A2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7v3qUvGaLweXRbw4%2F20230605%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230605T003318Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e075cf58c914d47be2154e18ead0690daa198aeb01c4e3fbef36c08221d095ea" width="60" height="60">
+          <img src="http://101.37.117.226:9090/wdhcr/%E5%8D%9A%E5%AE%A2" width="60" height="60">
         </div>
     </div>
 </template>
