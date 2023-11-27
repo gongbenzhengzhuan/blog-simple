@@ -30,6 +30,8 @@ public class BlogLoginServiceImpl implements BlogLoginService {
     @Override
     public ResponseResult login(LoginUserDTO user) {
         // 验证用户名和密码
+        // dzl password:333a0611c53368697659b4248d6cdd99
+        System.out.println("password:"+user.getPassword());
         UsernamePasswordAuthenticationToken authenticationToken = new
                 UsernamePasswordAuthenticationToken(user.getUserName(), user.getPassword());
         Authentication authentication = authenticationManager.authenticate(authenticationToken);

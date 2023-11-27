@@ -4,7 +4,9 @@ import com.zhiyiyo.domain.ResponseResult;
 import com.zhiyiyo.domain.dto.LoginUserDTO;
 import com.zhiyiyo.service.BlogLoginService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 

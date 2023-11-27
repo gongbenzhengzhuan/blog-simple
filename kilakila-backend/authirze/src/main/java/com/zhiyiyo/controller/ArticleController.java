@@ -9,7 +9,6 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.text.ParseException;
 
 @RestController
 @RequestMapping("/article")
@@ -27,6 +26,10 @@ public class ArticleController {
     public ResponseResult getArticleList(@Valid ArticleQueryDTO articleQueryDTO){
         return articleService.getArticleList(articleQueryDTO);
     }
+
+//    http://localhost:9005/login
+//    {"userName":"dzl","password":"333a0611c53368697659b4248d6cdd99"}
+//    http://localhost:9005/article/auth
 
     @GetMapping("/auth")
     @PreAuthorize("hasAuthority('article:add')")

@@ -12,6 +12,7 @@
         <module>framework</module>
         <module>admin</module>
         <module>blog</module>
+        <module>authirze</module>
     </modules>
 
     <properties>
